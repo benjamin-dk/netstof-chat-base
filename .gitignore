@@ -1,4 +1,6 @@
-sites/all/themes/newtrifeed/.sass-cache
+# Ignore symlinked directories
+sites/all/modules/custom
+sites/all/themes/netstof*
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
@@ -7,7 +9,6 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-sites/all/themes/newtrifeed/.sass-cache
 sites/all/modules/devel
 sites/all/modules/devel_themer
 sites/all/libraries/simplehtmldom
