@@ -1,0 +1,15 @@
+sites/all/themes/newtrifeed/.sass-cache
+
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+sites/all/themes/newtrifeed/.sass-cache
+sites/all/modules/devel
+sites/all/modules/devel_themer
+sites/all/libraries/simplehtmldom
+sites/all/modules/simplehtmldom
+sites/all/modules/stage_file_proxy

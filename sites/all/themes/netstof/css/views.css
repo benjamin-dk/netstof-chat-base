@@ -1,0 +1,805 @@
+/**
+ * BREVKASSEN - Oversigt
+ */
+.page-node-305 {
+
+}
+.page-node-305 h1#page-title {
+	color: #0b5a7c !important;
+	padding: 3px 0 0 52px;
+	background: url("../images/icon-title-letter.png") no-repeat top left;
+	height: 36px;
+	margin-bottom: 0;
+}
+	.page-node-305 .field-name-field-oversigt {
+		overflow: hidden;
+	}
+	.page-node-305 .field-name-field-oversigt .field-item {
+		float: left;
+		width: 50%;
+	}
+		.page-node-305 .field-name-field-oversigt .field-item > div {
+			padding-right: 20px;
+			margin-bottom: 20px;
+		}
+		.page-node-305 #content > .block-views .view-header {
+			float: left;
+			font-size: 12px;
+		}
+			.page-node-305 .field-name-field-oversigt .field-item h2 {
+				color: #0b5a7c;
+				font-weight: normal;
+				text-transform: uppercase;
+				font-size: 20px; line-height: 20px;	
+				padding-top: 20px;	
+				padding-left: 48px;		
+				height: 21px;
+			}
+				.page-node-305 .field-name-field-oversigt .field-item h2.psykolog {
+					background: url("../images/icon-psykolog.png") no-repeat 0 0;
+				}
+				.page-node-305 .field-name-field-oversigt .field-item h2.laege {
+					background: url("../images/icon-laege.png") no-repeat 0 0;
+				}
+				.page-node-305 .field-name-field-oversigt .field-item h2.rusmiddel {
+					background: url("../images/icon-professor.png") no-repeat 0 0;
+				}	
+				.page-node-305 .field-name-field-oversigt .field-item p {
+					float: left;
+					width: 100%;
+				}
+			.page-node-305 .field-name-field-oversigt .field-item a.goto-link {
+				color: #FFFFFF;
+				font-weight: bold;
+				text-transform: uppercase;
+				font-size: 15px; line-height: 15px;
+				display: block;
+				background: #0b5a7c url("../images/icon-white-triangle.png") no-repeat 13px 11px;
+				padding: 10px 12px 10px 30px;
+				float: left;
+				-webkit-border-top-left-radius: 5px;
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-radius-topleft: 5px;
+				-moz-border-radius-bottomleft: 5px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			.page-node-305 .field-name-field-oversigt .field-item a.add-link {
+				display: block;
+				height: 35px;
+				width: 35px;
+				background: #0b5a7c url("../images/icon-plus-mini.png") no-repeat center center;
+				float: left;
+				margin-left: 3px;
+				-webkit-border-top-right-radius: 5px;
+				-webkit-border-bottom-right-radius: 5px;
+				-moz-border-radius-topright: 5px;
+				-moz-border-radius-bottomright: 5px;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+		.page-node-305 .field-name-field-oversigt .field-item .view-content {
+			float: left;
+		}
+			.page-node-305 .field-name-field-oversigt .field-item .view-content ul {
+				margin: 0;
+				padding: 0;
+			}			
+			.page-node-305 .field-name-field-oversigt .field-item .view-content ul li {
+				list-style: none;
+				list-style-image: none;
+				margin: 0 0 10px 0;
+				padding: 0;
+				float: left;
+				width: 100%;
+			}
+				.page-node-305 .field-name-field-oversigt .field-item .view-content .views-field-picture {
+					float: left;
+					width: 104px;
+					margin: 0 7px 7px 0;
+				}
+					.page-node-305 .field-name-field-oversigt .field-item .view-content .views-field-picture img {
+						border: 2px solid #e2e1df;					
+					}
+				.page-node-305 .field-name-field-oversigt .field-item .view-content .views-field-name {
+					font-size: 15px; line-height: 15px;
+					text-transform: uppercase;
+					color: #424242;
+					padding: 10px 0;
+					float: left;
+					width: 151px;
+				}
+					.page-node-305 .field-name-field-oversigt .field-item .view-content .views-field-name a {
+						color: #424242;
+					}
+				.page-node-305 .field-name-field-oversigt .field-item .views-field-field-profile-public-description {
+					font-size: 12px;
+					color: #424242;
+					float: left;
+					width: 151px;
+				}
+				
+/**
+ * BREVKASSEN - Enkelt brevkasse
+ */
+.page-brevkasse #page-title {
+	display: none;
+}
+.view-Brevkasse {
+
+}
+	body.page-brevkasse .view-Brevkasse > .view-header {
+		margin-bottom: 14px;
+		box-shadow: 0 0 7px #BBB;	
+		background: #FFF;	
+		padding: 23px;
+		position: relative;
+		font-family: "Cabin", sans-serif;	
+		overflow: hidden;
+	}
+		.view-Brevkasse > .view-header .header-title {
+			padding: 0 0 0 50px;
+			margin-bottom: 19px;
+			height: 41px;
+		}
+			.view-Brevkasse.view-display-id-page_2 .header-title {
+				background: url("../images/icon-laege.png") no-repeat 0 0;
+			}
+			.view-Brevkasse.view-display-id-page_3 .header-title {
+				background: url("../images/icon-psykolog.png") no-repeat 0 0;
+			}
+			.view-Brevkasse.view-display-id-page_4 .header-title {
+				background: url("../images/icon-professor.png") no-repeat 0 0;
+			}
+			.view-Brevkasse .view-header .header-title span {
+				font-size: 13px;
+				color: #3e3e3e;
+			}
+			.view-Brevkasse > .view-header .header-title h1 {
+				color: #0b5a7c;
+				font-size: 28px;
+				margin: 0; padding: 4px 0 0 0;
+				font-weight: normal;
+				font-family: "Cabin", sans-serif;
+			}
+		.view-Brevkasse > .view-header > .view-brevkasseredaktoerer {
+			width: 50%;
+			float: left;
+		}
+			.view-brevkasseredaktoerer .views-field-picture {
+				float: left;
+				width: 104px;
+				margin: 0 7px 7px 0;
+			}
+				.view-brevkasseredaktoerer .views-field-picture img {
+					border: 2px solid #e2e1df;					
+				}
+			.view-brevkasseredaktoerer .views-field-name {
+				font-size: 15px; line-height: 15px;
+				text-transform: uppercase;
+				color: #424242;
+				padding: 10px 10px 10px 0;
+				float: left;
+				width: 151px;
+			}
+				.view-brevkasseredaktoerer .views-field-name a {
+					color: #424242;
+				}
+			.view-brevkasseredaktoerer .views-field-field-profile-public-description {
+				font-size: 12px; font-family: "Cabin", sans-serif;
+				color: #424242;
+				float: left;
+				width: 151px;
+				padding: 0 10px 0 0;
+			}
+    body.page-brevkasse .view-brevkasseredaktoerer .views-field-name,
+    body.page-brevkasse .view-brevkasseredaktoerer .views-field-field-profile-public-description {
+      display: none;
+    }
+		.view-Brevkasse > .view-header > .brevkasse-desc {
+			width: 50%;
+			float: left;
+			font-size: 12px;
+			padding: 10px 0 0 0;
+		}
+		.view-Brevkasse > .view-header #add-question {
+			position: absolute;
+			top: 23px;
+			right: 23px;
+			color: white;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: 15px;
+			line-height: 15px;
+			display: inline-block;
+			background: #0B5A7C url("../images/icon-plus-mini.png") no-repeat 11px 11px;
+			padding: 10px 12px 10px 30px;
+			border-radius: 5px;
+		}
+	.view-Brevkasse > .view-content > .views-row {
+		margin-bottom: 14px;
+		box-shadow: 0 0 7px #BBB;		
+	}
+		.view-Brevkasse > .view-content > .views-row > .views-field {
+			background: #FFF;
+			border: none;
+			border-radius: 0;
+			overflow: hidden;
+			padding: 20px 23px 20px 52px;
+			font-family: "Cabin", sans-serif;
+			margin-top: 0;
+		}
+			.view-Brevkasse > .view-content > .views-row > .views-field a {
+				padding: 0;
+			}
+			.view-Brevkasse > .view-content > .views-row > .views-field .ui-icon {
+				background: url("../images/icon-arrow-acc.png") no-repeat center center;
+				left: 23px;
+			}
+			.view-Brevkasse > .view-content > .views-row > .views-field.ui-state-active .ui-icon {
+				background: url("../images/icon-arrow-acc-active.png") no-repeat center center;			
+			}
+			.view-Brevkasse > .view-content > .views-row .acc_left {
+				float: left;
+				width: 75%;
+			}
+				.view-Brevkasse > .view-content > .views-row .acc_left .faq_acc_date {
+					color: #424242;
+					font-weight: bold;
+					font-size: 11px;
+					margin-bottom: 2px;
+				}
+				.view-Brevkasse > .view-content > .views-row .acc_left .faq_acc_title {
+					color: #3d3d3d;
+					font-size: 15px;
+					text-transform: uppercase;
+				}
+					.view-Brevkasse .views-field.ui-state-active .acc_left .faq_acc_title {
+						color: #0b5a7c;
+					}
+
+			.view-Brevkasse > .view-content > .views-row .acc_right {
+				width: 25%;
+				float: left;
+				font-size: 13px;
+				color: #3e3e3e;
+				text-align: right;
+			}
+				.view-Brevkasse > .view-content > .views-row .acc_right .faq_acc_sex {
+					display: inline;
+				}
+				.view-Brevkasse > .view-content > .views-row .acc_right .faq_acc_age {
+					display: inline;
+					padding-left: 3px;
+				}
+		.view-Brevkasse > .view-content > .views-row > .ui-accordion-content {
+			border: none;
+			color: #3e3e3e;
+			font-size: 12px; line-height: 14px;
+			font-family: "Cabin", sans-serif;
+			padding: 0 23px 20px 52px;
+			border-radius: 0;
+		}
+			.view-Brevkasse > .view-content > .views-row > .ui-accordion-content .views-label {
+				font-weight: bold;
+				margin-bottom: 5px;
+				font-size: 12px;
+				display:block;
+				text-transform: uppercase;
+			}
+			.view-Brevkasse > .view-content > .views-row > .ui-accordion-content .views-field-view-node a {
+				color: #0b5a7c;
+				font-weight: bold;
+				font-size: 14px;
+			}
+	
+/**
+ * ERFARINGER - Oversigt
+ */
+
+.page-erfaringer #page-title {
+	display: none;
+}
+.view-erfaringer .view-header, .view-erfaringer .view-empty {
+	margin-bottom: 14px;
+	box-shadow: 0 0 7px #BBB;	
+	background: #FFF;	
+	padding: 23px 23px 10px 23px;
+	position: relative;
+	font-family: "Cabin", sans-serif;	
+}
+	.view-erfaringer .view-header h1 {
+		color: #404040;
+		font-size: 28px;
+		margin: 5px 0 30px 0; padding: 4px 0 0 0;
+		font-weight: normal;
+		font-family: "Cabin", sans-serif;
+	}
+	.view-erfaringer .view-header #add-experince {
+		position: absolute;
+		top: 23px;
+		right: 23px;
+		color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 15px;
+		line-height: 15px;
+		display: inline-block;
+		background: #0B5A7C url("../images/icon-plus-mini.png") no-repeat 11px 11px;
+		padding: 10px 12px 10px 30px;
+		border-radius: 5px;
+	}
+	.view-erfaringer .views-row {
+		margin-bottom: 14px;
+		box-shadow: 0 0 7px #BBB;	
+		background: #FFF;
+	}
+		.view-erfaringer .views-row > .views-field {
+			background: #FFF;
+			border: none;
+			border-radius: 0;
+			overflow: hidden;
+			padding: 20px 23px 20px 52px;
+			font-family: "Cabin", sans-serif;
+		}
+			.view-erfaringer .views-row > .views-field a {
+				padding: 0;
+			}
+			.view-erfaringer .views-row > .views-field .ui-icon {
+				background: url("../images/icon-arrow-acc.png") no-repeat center center;
+				left: 23px;
+			}
+			.view-erfaringer .views-row > .views-field.ui-state-active .ui-icon {
+				background: url("../images/icon-arrow-acc-active.png") no-repeat center center;			
+			}
+			.view-erfaringer .views-row .acc_left {
+				float: left;
+				width: 75%;
+			}
+				.view-erfaringer .views-row .acc_left .faq_acc_date {
+					color: #424242;
+					font-weight: bold;
+					font-size: 11px;
+					margin-bottom: 2px;
+				}
+				.view-erfaringer .views-row .acc_left .faq_acc_title {
+					color: #3d3d3d;
+					font-size: 15px;
+					text-transform: uppercase;
+				}
+					.view-Brevkasse .views-field.ui-state-active .acc_left .faq_acc_title {
+						color: #0b5a7c;
+					}
+
+			.view-erfaringer .views-row .acc_right {
+				width: 25%;
+				float: left;
+				font-size: 13px;
+				color: #3e3e3e;
+				text-align: right;
+			}
+				.view-erfaringer .views-row .acc_right .faq_acc_sex {
+					display: inline;
+				}
+				.view-erfaringer .views-row .acc_right .faq_acc_age {
+					display: inline;
+					padding-left: 3px;
+				}
+		.view-erfaringer .views-row > .ui-accordion-content {
+			border: none;
+			color: #3e3e3e;
+			font-size: 12px; line-height: 14px;
+			font-family: "Cabin", sans-serif;
+			padding: 0 23px 20px 52px;
+			border-radius: 0;
+		}
+			.view-erfaringer .views-row > .ui-accordion-content .views-label {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			.view-erfaringer .views-row > .ui-accordion-content .views-field-view-node a {
+				color: #0b5a7c;
+				font-weight: bold;
+			}
+			
+/**
+ * ARTIKLER - Oversigt
+ */
+.view-artikler {
+	position: relative;
+}
+.view-artikler .views-fluidgrid-item {
+	float: left;
+	background: url("../images/grid-box-bg.png") no-repeat 0 9px;
+	width: 294px; height: auto;
+	color: #404040;
+	font-size: 13px; line-height: 15px;
+}
+	.view-artikler .views-fluidgrid-item .views-fluidgrid-item-inner {
+		height: 335px;
+		position: relative;
+		background: white url("../images/block-btm.png") no-repeat bottom center;
+		padding: 0;
+	}
+	.view-artikler .views-fluidgrid-item .views-fluidgrid-item-top {
+		background: url("../images/small_shadow_top.png") no-repeat top center;
+		height: 9px;
+	}
+	.view-artikler .views-fluidgrid-item .views-fluidgrid-item-btm {
+		background: url("../images/small_shadow_bottom.png") no-repeat bottom center;
+		height: 12px;
+	}
+		.view-artikler .views-fluidgrid-item .views-field-field-image {
+			line-height: 0;
+		}
+		.view-artikler .views-fluidgrid-item .views-field-title {
+				padding: 23px 23px 9px;
+		}
+			.view-artikler .views-fluidgrid-item .views-field-title a {
+				color: #1e6381;
+				font-size: 20px; line-height: 20px;
+				text-transform: uppercase;
+			}
+		.view-artikler .views-fluidgrid-item .views-field-body {
+			padding: 0 23px;
+			font-size: 13px;
+			color: #404040;
+		}
+		/* Pager */
+		.view-artikler ul.pager {
+			color: #424242;
+			font-size: 14px;
+			font-weight: normal;
+			margin-top: 30px;
+		}
+			.view-artikler ul.pager li {
+				padding: 0;
+			}
+			.view-artikler ul.pager li.pager-current {
+				padding: 0 10px;
+				font-family: "Cabin", sans-serif;
+				font-size: 15px;
+				font-weight: normal;
+			}
+			.view-artikler ul.pager li a {
+				color: #FFF;
+				background: #424242;
+				padding: 1px 8px;
+				text-decoration: none;
+			}
+			
+/**
+ * VIDENSBANK - Oversigt
+ */
+.view-vidensbanken .views-field-type {
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 35px;
+}
+			
+/**
+ * FAQ + Leksikon - Oversigt
+ */
+.view-faq,
+.view-leksikon {
+	padding-top: 15px;
+	border-top: 1px dashed #dedddb;
+	overflow: hidden;
+}
+.view-faq .view-content,
+.view-leksikon .view-content {
+	overflow: hidden;
+}
+	.view-faq .item-list {
+		float: left;
+		width: 50%;
+		margin-bottom: 20px;
+	}
+		.view-faq .item-list h3,
+		.view-leksikon .item-list .views-field-title {
+			font-size: 20px;
+			color: #40403f;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+			margin-top: 0;
+		}
+		.view-faq .item-list h3 {
+			margin-bottom: 10px;
+		}
+		.view-leksikon .item-list .views-field-title,
+		.view-leksikon .item-list .views-field-body {
+			padding-right: 40px;
+		}
+		.view-leksikon .item-list .views-field-nothing {
+			margin-bottom: 7px;
+		}
+			.view-leksikon .item-list .views-field-nothing a {
+				border-right: 1px solid #424242;
+				padding-right: 5px;
+				margin-right: 4px;
+				line-height: 13px;
+			}
+			.view-leksikon .item-list .views-field-nothing a.last {
+				border-right: none;
+			}
+	.view-faq .item-list > ul {
+		margin-right: 40px;
+	}
+		.view-leksikon .view-content .item-list > ul li {
+			width: 50%;
+			float: left;	
+			margin-bottom: 20px;
+			list-style: none;
+			list-style-image: none;
+			padding: 0 !important;
+			margin: 0 !important;
+			height: 140px;		
+		}
+		.view-faq .view-content ul li a,
+		.view-leksikon .view-content ul li a {
+			color: #404040;
+		}
+		.view-faq .view-content ul li a:hover,
+		.view-leksikon .view-content ul li a:hover {
+			color: #0b5a7c;
+		}
+		.view-leksikon-ikoner {
+			margin-bottom: 5px;
+		}
+		.view-leksikon-ikoner .views-row {
+			float: left;
+			margin-right: 5px;
+		}
+/* Filter */
+.view-faq .views-exposed-form,
+.view-leksikon .views-exposed-form {
+	margin-bottom: 25px;
+}
+	.view-faq .views-exposed-form #edit-body-value-wrapper,
+	.view-leksikon .views-exposed-form #edit-title-wrapper {
+		float: left;
+		margin-right: 15px;
+	}
+		.view-faq .views-exposed-form #edit-body-value-wrapper input[type=text],
+		.view-leksikon .views-exposed-form #edit-title-wrapper input[type=text] {
+			border: none;
+			background: #404040 url("../images/icon-loop.png") no-repeat 14px 13px;
+			padding: 0 10px 0 40px;
+			margin: 0;
+			color: white;
+			height: 38px;
+			width: 186px;
+			font-size: 14px;
+			font-family: "Cabin", sans-serif;
+			outline: none;
+		}
+	.view-faq .views-exposed-form #edit-field-faq-category-tid-wrapper,
+	.view-leksikon .views-exposed-form #edit-field-encyclopedia-drug-category-tid-wrapper {
+		float: left;
+		margin-right: 15px;
+	}
+		.view-faq .views-exposed-form #edit-field-faq-category-tid-wrapper label,
+		.view-leksikon .views-exposed-form #edit-field-encyclopedia-drug-category-tid-wrapper label {
+			float: left;
+			font-size: 15px;
+			color: #424232;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-right: 8px;
+			padding-top: 11px;
+		}
+		.view-faq .views-exposed-form #edit-field-faq-category-tid-wrapper .views-widget,
+		.view-leksikon .views-exposed-form #edit-field-encyclopedia-drug-category-tid-wrapper .views-widget {
+			float: left;
+		}
+		.view-faq .views-exposed-form #edit-field-faq-category-tid-wrapper select,
+		.view-leksikon .views-exposed-form #edit-field-encyclopedia-drug-category-tid-wrapper select {
+		border: none;
+		background: #404040 url("../images/select-arrow.png") no-repeat center right;
+		border-radius: 0;
+		padding: 10px 14px 10px 10px;
+		-webkit-appearance: none;
+		outline: none;
+		font-size: 14px;
+		font-family: "Cabin", sans-serif;
+		color: #FFFFFF;
+		height: 38px;
+		width: 170px;
+		}
+	.view-faq .views-exposed-form .views-submit-button,
+	.view-leksikon .views-exposed-form .views-submit-button {
+		float: left;
+	}
+		.view-faq .views-exposed-form .views-submit-button input[type=submit],
+		.view-leksikon .views-exposed-form .views-submit-button input[type=submit] {
+			border: none;
+			background: #FFAD00;
+			text-transform: uppercase;
+			color: white;
+			width: 58px;
+			height: 38px;
+			font-family: "Cabin", sans-serif;
+			font-size: 14px;
+		}
+		
+/**
+ * GOOGLE MAPS KORT
+ */
+.view-kort.view-display-id-default {
+	overflow: hidden;
+}
+/* Exposed filters */
+.view-kort .view-filters {
+	float: left;
+	width: 100%;
+}
+.view-kort .views-exposed-widgets {
+	float: left;
+	width: 100%;
+	height: 32px;
+}
+	.view-kort .views-exposed-widgets > .views-exposed-widget {
+		float: left;
+		margin-right: 14px;
+		height: 32px;
+	}
+		.view-kort .views-exposed-widgets > .views-exposed-widget .form-item {
+			margin: 0;
+		}
+		.view-kort .views-exposed-form input[type="text"] {
+			border: none;
+			background: #404040;
+			padding: 0 10px 0 10px;
+			margin: 0;
+			color: white;
+			height: 32px;
+			width: 113px;
+			font-size: 13px;
+			font-family: "Cabin", sans-serif;
+			outline: none;
+		}
+		.view-kort .views-exposed-form input[type="submit"] {
+			border: none;
+			background: #FFAD00;
+			text-transform: uppercase;
+			color: white;
+			width: 58px;
+			height: 32px;
+			font-family: "Cabin", sans-serif;
+			font-size: 14px;
+		}
+/* Kort */
+.view-kort.view-display-id-default > .view-content {
+	border-top: 1px dashed #dedddb;
+	border-bottom: 1px dashed #dedddb;
+	float: left;
+	width: 100%;
+	margin: 15px 0 0 0;
+}
+.gmap-popup .views-field-title {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.gmap-popup .views-field-nothing {
+	margin-bottom: 10px;
+}
+/* Attachments view */
+.view-kort.view-display-id-default > .attachment {
+	float: left;
+	width: 100%;
+}
+	.view-kort.view-display-id-default > .attachment .item-list {
+		margin-top: 31px;
+	}
+		.view-kort.view-display-id-default > .attachment .item-list h3 {
+			font-size: 15px; line-height: 15px;
+			text-transform: uppercase;
+			margin: 0 0 7px 0;
+		}
+			.view-kort.view-display-id-default > .attachment .item-list ul {
+				list-style: none;
+				list-style-image: none;
+				margin: 0; padding: 0;
+			}
+			.view-kort.view-display-id-default > .attachment .item-list ul li {
+				margin: 0; padding: 10px 0 10px 0;
+				font-size: 13px; line-height: 14px;
+				border-bottom: 1px dashed #dedddb;
+				overflow: hidden;
+			}
+				.view-kort.view-display-id-default > .attachment .item-list ul li > div {
+					float: left;
+				}
+					.view-kort.view-display-id-default > .attachment .item-list ul li > div.views-field-title {
+						width: 35%;
+					}
+					.view-kort.view-display-id-default > .attachment .item-list ul li > div.views-field-title a {
+						color: #3E3E3E;
+					}
+					.view-kort.view-display-id-default > .attachment .item-list ul li > div.views-field-nothing {
+						width: 35%;
+					}
+					.view-kort.view-display-id-default > .attachment .item-list ul li > div.views-field-field-steder-tlf {
+						text-align: right;
+						width: 30%;
+					}
+
+/**
+ * SØGERESULTATER
+ */
+.page-search-node section#main-content {
+	background: url("../images/big_shadow_top.png") no-repeat top center;
+	padding-top: 11px;
+	position: relative; top: -11px;
+}
+.page-search-node #main-content-header {
+	padding: 23px 23px 0 23px;
+	background: white url("../images/content-top.png") no-repeat top center;		
+}
+.page-search-node #content {
+	padding: 0 23px 23px 23px;
+	background: white url("../images/content-btm.png") no-repeat bottom center;		
+}
+.page-search-node #content-btm-shadow {
+	background: url("../images/big_shadow_bottom.png") no-repeat bottom center;
+	height: 15px;		
+}
+.page-search-node #content h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #3e3e3e;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+ol.search-results {
+	margin: 0; padding: 0;
+}
+	ol.search-results li {
+		margin-bottom: 22px;
+	}
+		ol.search-results li h3 {
+			font-size: 15px;
+			text-transform: uppercase;
+			margin: 0 0 10px 0;
+			padding: 0;
+		}
+			ol.search-results li h3 a {
+				color: #3e3e3e;
+			}
+		ol.search-results li .search-snippet-info {
+			margin: 0;
+			padding: 0;
+		}
+		ol.search-results li .search-snippet {
+			font-size: 13px; line-height: 16px;
+			color: #3e3e3e;
+		}
+			ol.search-results li .search-snippet strong {
+				color: #ffad00;
+			}
+/**
+ * PAGER - Brevkasse, Leksikon 
+ */
+ 
+.view-Brevkasse ul.pager,
+.view-leksikon ul.pager,
+.page-search-node ul.pager,
+.view-id-advanced_forum_topic_list ul.pager {
+	margin-top: 25px;
+	text-align: center;
+	width: 100%;
+}
+	.view-Brevkasse ul.pager li,
+	.view-leksikon ul.pager li,
+	.page-search-node ul.pager li,
+	.view-id-advanced_forum_topic_list ul.pager li {
+		font-size: 13px;
+	}
+	.view-Brevkasse ul.pager li a,
+	.view-leksikon ul.pager li a,
+	.page-search-node ul.pager li a,
+	.view-id-advanced_forum_topic_list ul.pager li a {
+		color: #424242;
+	}
